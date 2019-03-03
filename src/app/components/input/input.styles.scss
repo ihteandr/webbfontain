@@ -1,0 +1,8 @@
+.input {
+    border: 0.1rem solid var(--primary-color);
+    padding: .2rem .5rem;
+    &.medium {
+        width: 15rem;
+        height: 2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.button {
+    border: 0.1rem solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1rem;
+    background-color: transparent;
+    &.medium {
+        width: 10rem;
+        height: 3rem;
+    }
+    &.large {
+        width: 12rem;
+        height: 6rem;
+    }
+    &[disabled] {
+        opacity: 0.2;
+    }
+}
